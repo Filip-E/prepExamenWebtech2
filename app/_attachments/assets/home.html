@@ -1,23 +1,16 @@
 <div>
-  <h1 >Prep App</h1>
-  
-  	<!--
-  	<label for="addressText">Adres :</label>
-  	<input type="text" class="form-control" id="addressText" value="meistraat 5, antwerpen">
-  	<br/>
-    
-    <br/>
-    -->
-    <a class="btn btn-primary btn-lg" role="button" id="newPerson">New Person</a>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Country</th>
-  </tr>
-  <tr ng-repeat="x in persons">
-    <td>{{ x.doc.name }}</td>
-    <td>{{ x.doc.country }}</td>
-  </tr>
-</table>
-  
+	<h1>Prep App</h1>
+
+	<a class="btn btn-primary btn-lg" role="button" id="newPerson">NewPerson</a>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Country</th>
+		</tr>
+		<tr ng-repeat="x in persons">
+			<td>{{ x.doc.name }}</td>
+			<td>{{ x.doc.country }}</td>
+		</tr>
+	</table>
+
 </div>
